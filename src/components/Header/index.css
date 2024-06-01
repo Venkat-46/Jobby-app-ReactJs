@@ -1,0 +1,64 @@
+.Header-container {
+  background-color: rgb(77, 73, 73);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+.header-logo-img {
+  width: 100px;
+  height: 40px;
+}
+.mobile-links-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .mobile-links-container {
+    display: none;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.link-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.link-item-button {
+  list-style-type: none;
+}
+.m-logout-button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.desk-links-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desk-links-container {
+    display: flex;
+  }
+}
+.desk-logout-button {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desk-logout-button {
+    display: block;
+    background-color: rgb(43, 98, 216);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
