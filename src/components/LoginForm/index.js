@@ -92,6 +92,14 @@ class LoginForm extends Component {
     }
     return (
       <div className="login-form-container">
+        <div className="note-container">
+          <p className="note-text">
+            It is a prototype project, to login use any of these credentials
+            [Username: rahul, password: rahul@2021] [Username: praneetha
+            password: praneetha@2021] [Username: mosh password: DevMosh22]
+          </p>
+        </div>
+
         <div className="form-section">
           <img
             src="https://assets.ccbp.in/frontend/react-js/logo-img.png"

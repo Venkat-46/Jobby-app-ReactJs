@@ -1,9 +1,26 @@
 .login-form-container {
   background-color: black;
+  color: white;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.note-container {
+  width: 86%;
+  background-color: rgb(63, 63, 61);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 3px 1px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+.note-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: yellow;
 }
 .form-section {
   width: 80%;
